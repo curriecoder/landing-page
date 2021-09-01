@@ -13,14 +13,14 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="./assets/css/contact-form.html">Contact Us</a>
+                        <a href="#contact">Contact Us</a>
                     </li>
                     <li>
                         <a href="#Additional-Nav-Link">Additional-Nav-Link</a>
                     </li>
                     <li>
                         <a href="#Additional-Nav-Link2">Additional-Nav-Link2</a>
-                    </li>
+                    </li>   
                 </ul>
             </nav>
         </header>
@@ -35,6 +35,25 @@
         </main>
         <footer>
             <h3>Footer Info</h3>
+                <div id="contact">
+                 <form action="action_page.php">
+         
+                     <label for="fname">First Name</label>
+                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
+         
+                     <label for="lname">Last Name</label>
+                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                   
+                     <label for="email">Eamil</label>
+                     <input type="text" id="email" name="email" placeholder="Your Email..">
+         
+                     <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+         
+                    <input type="submit" value="Submit">
+         
+                </form>
+            </div> 
         </footer>
     </body>
 </html>
