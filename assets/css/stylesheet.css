@@ -1,0 +1,31 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.highlighted-text{
+    font-weight: bolder;
+}
+
+header{
+    position:fixed;
+    top: 0;
+}
+
+body{
+    position: relative;
+    left: 100px;
+    margin: 20px;
+    color: rgb(156, 92, 92);
+    background-color: cadetblue;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+img{
+    display: inline;
+    margin: 100px;
+    border: 9px solid rgba(255, 248, 220, 0.479);
+}
